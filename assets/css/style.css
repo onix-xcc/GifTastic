@@ -13,6 +13,11 @@ body {
     margin-top: 15px;
 }
 
+h1 {
+    font-size: 4vw;
+    margin-top: 10px;
+}
+
 button {
     font-family: 'Press Start 2P', cursive;
     border: 2px solid white;
