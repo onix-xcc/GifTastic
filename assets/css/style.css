@@ -1,0 +1,74 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(../images/BackgroundImage.jpg);
+    color: white
+}
+
+#Header {
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 12px;
+    text-align: center;
+    width: 50%;
+    margin-top: 15px;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    padding: 5px 15px 5px 15px;
+    margin: 5px 5px 5px 5px;
+}
+
+#game-buttons {
+    border-top-width: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#form-container {
+    float: right;
+    margin-right: 70px;
+    text-align: center;
+}
+
+
+#vg-input {
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+  }
+
+
+#add-vg {
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    padding: 5px 15px 5px 15px;
+}
+
+#GameGif-area {
+   clear: right; 
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+/* Make GIFs same height so it doesn't make the page uneven */
+.gifMove {
+    width: auto;
+    height: 150px;
+}
+
+.ratings {
+    padding-top: 20px;
+}

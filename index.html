@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en us">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic Videogames</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Style CSS -->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+
+  <!-- FavIcon -->
+  <link rel="icon" href="assets/images/MarioQuestionBlock.ico" type="image/gif" sizes="16x16">
+
+  <!-- Google Font - Press Start 2P  -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <!-- JS -->
+  <script src="assets/javascript/app.js"></script>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <div id="Header">
+    <h1 id="">Video Game GIFTastic</h1>
+  </div>
+  <!-- Game button display area -->
+  <div id="game-buttons"></div><br>
+
+
+<!-- Button creation area -->
+  <div id="form-container">
+    <form id="input-form">
+      <input type="text" id="vg-input" placeholder="Search for Video Game"><br>
+    </form>
+    <button onclick="LetsAGoPress()" type="button" id="add-vg"> Let's-a Go!</button>
+  </div>
+
+  <!-- Area where GIFs will be displayed -->
+  <div id="GameGif-area"></div>
+
+
+
+</body>
+
+</html>
